@@ -115,7 +115,7 @@ AddButton(Tab3o, {
 })
 
 AddButton(Tab3o, {
-    Name = "",
+    Name = "arvotheon hub",
     Callback = function()
         loadstring(game:HttpGet("https://get-avth-ontop.netlify.app/my-paste/script.lua"))()
     end
