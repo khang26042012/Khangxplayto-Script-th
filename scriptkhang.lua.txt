@@ -106,3 +106,88 @@ AddButton(Tab3o, {
         loadstring(game:HttpGet("https://soluna-script.vercel.app/99-Nights-in-the-Forest.lua",true))()
     end
 })
+
+AddButton(Tab3o, {
+    Name = "Goa Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/GOA_HUB/refs/heads/main/99%20Nights%20In%20The%20Forest"))()
+    end
+})
+
+AddButton(Tab3o, {
+    Name = "",
+    Callback = function()
+        loadstring(game:HttpGet("https://get-avth-ontop.netlify.app/my-paste/script.lua"))()
+    end
+})
+
+AddButton(Tab3o, {
+    Name = "Hoho Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+    end
+})
+
+AddButton(Tab3o, {
+    Name = "Linux Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LinuxDevBr/99-Nights-In-the-Forest/refs/heads/main/Script.txt"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Lunor Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://lunor.dev/loader'))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Tora Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/GrowaGarden"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Blue Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ameicaa1/Grow-a-Garden/main/Grow_A_Garden.lua"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Beecon Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconBossScript/BeeconHub/main/BeeconHub"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Ronix Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a8f02a61fc38bf9256dd0f17be6b16d7.lua"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Native Hub",
+    Callback = function()
+        getgenv().Key = "PASTE_KEY_HERE";
+loadstring(game:HttpGet("https://getnative.cc/script/loader"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Alchemy Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Finder Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/M-E-N-A-C-E/Menace-Hub/refs/heads/main/Old%20Server%20Finder%20Grow%20a%20Garden", true))()
+    end
+})
