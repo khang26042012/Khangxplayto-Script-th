@@ -247,3 +247,115 @@ AddButton(Tab1o, {
         loadstring(game:HttpGet("https://lumin-hub.lol/loader.lua",true))()
     end
 })
+
+AddButton(Tab2o, {
+    Name = "Soul Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/refs/heads/main/soulhub", true))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Quantum Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "TxZ Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DrTxZ/Mercure-Hub/refs/heads/main/Mercure%20Hub.lua"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Blue X Hub – NO KEY",
+    Callback = function()
+        getgenv().Config = {
+    ["Misc"] = {
+        ["RandomFruits"] = true,
+        ["BlackScreen"] = false,
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/FindFruits.lua"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = " Zinner Hub – NO KEY",
+    Callback = function()
+        getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/refs/heads/main/BF-Main.luau"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Omg Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Banana Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/BananaCatHub/refs/heads/main/BananaCatHub.lua"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Madox Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/refs/heads/main/MadoxMain", true))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Arceney Hub",
+    Callback = function()
+        loadstring(game.HttpGet(game,'https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/BloxFruit-XYZ.lua'))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Aurora Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora", true))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "StarryMoon Hub",
+    Callback = function()
+        repeat task.wait() until game:IsLoaded()
+repeat task.wait() until game.Players
+repeat task.wait() until game.Players.LocalPlayer
+getgenv().Team = "Marines" -- Can change Marines => Pirates
+loadstring(game:HttpGet("https://power-clock-api.vercel.app/api/clockbloxfruits", true))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "SYN Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/refs/heads/main/ZynHub", true))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Shinichi Hub",
+    Callback = function()
+        repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinsayhi/refs/heads/main/ShinichiHub.lua"))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Yuri Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/YuriMain", true))()
+    end
+})
+
+
