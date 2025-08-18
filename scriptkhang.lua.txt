@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Grow a garden"})
      local Tab2o = MakeTab({Name = "Bloxfruit"})
      local Tab3o = MakeTab({Name = "99 nights in the forest"})
+     local Tab4o = MakeTab({Name = "dead rieal"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -115,7 +116,7 @@ AddButton(Tab3o, {
 })
 
 AddButton(Tab3o, {
-    Name = "arvotheon hub",
+    Name = "",
     Callback = function()
         loadstring(game:HttpGet("https://get-avth-ontop.netlify.app/my-paste/script.lua"))()
     end
@@ -358,4 +359,115 @@ AddButton(Tab2o, {
     end
 })
 
+AddButton(Tab4o, {
+    Name = "Skull Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua'))()
+    end
+})
 
+AddButton(Tab4o, {
+    Name = "Alchemy Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Kiciahook Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "S7 Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SevenIsYouScripts/Main/refs/heads/main/Auto%20Bonds%20Script'))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Nat Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Native Hub",
+    Callback = function()
+        script_key="PASTE_KEY_HERE";
+        (loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Skull Hub (Alt)",
+    Callback = function()
+        loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Fly Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Vehicle%20Fly%20Gui'))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Pink Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptBeLike/Tera-DeadRails/refs/heads/main/Meteor%20V1"))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Tora Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "TN Bond Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Lunor Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://lunor.dev/loader'))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Null Fire Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))("DingaScripts")
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Markk Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/AnimalSimulator/refs/heads/main/DRails.lua"))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Speed Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
+
+AddButton(Tab4o, {
+    Name = "Strelizia Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-strelizia-script-hub-31809"))()
+    end
+})
